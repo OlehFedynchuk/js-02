@@ -1,9 +1,8 @@
 const numberFibonacci = parseInt(prompt("Number Fibonacci ?"));
 
-
-alert(' Number Fibonacci #1 ' + ' ( ' + numberFibonacci + ' ) ' + ' is ' + fibonacciImplementation(numberFibonacci));
-alert(' Number Fibonacci #2 ' + ' ( ' + numberFibonacci + ' ) ' + ' is ' + fibonacciArray(numberFibonacci));
-alert(' Number Fibonacci #3 ' + ' ( ' + numberFibonacci + ' ) ' + ' is ' + fibonacciRecursive(numberFibonacci));
+alert(' Number Fibonacci Implementation ' + ' ( ' + numberFibonacci + ' ) ' + ' is ' + fibonacciImplementation(numberFibonacci));
+alert(' Number Fibonacci Array ' + ' ( ' + numberFibonacci + ' ) ' + ' is ' + fibonacciArray(numberFibonacci));
+alert(' Number Fibonacci Recursive ' + ' ( ' + numberFibonacci + ' ) ' + ' is ' + fibonacciRecursive(numberFibonacci));
 
 function fibonacciImplementation(numberFibonacci) {
     let firstNumber = 1;
